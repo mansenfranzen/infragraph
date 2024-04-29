@@ -23,5 +23,10 @@ This software will have three main components:
 1. The software must reflect changes in the infrastructure, such as additions, updates, and deletions, as these are crucial for maintaining an accurate view. This change-awareness should be evident in the frontend visualizations.
 2. It should allow users to manage the visibility of grouped resources, such as Terraform modules, which can be expanded or collapsed in the visual representation. This grouping should be consistent across all software layers.
 3. The final visualization should be an interactive, standalone HTML/JavaScript file with features like zooming, collapsing groups, and hovering over elements to display tooltips with additional details.
+4. Backend and frontend should be extensible adhering to a single, standardized interface to support new backends and frontends.
 
 By simplifying these complex processes into a more intuitive and interactive format, we aim to improve the usability and accessibility of cloud infrastructure management for both technical and non-technical stakeholders.
+
+# PoC
+
+The initial version of this software package should only support Terraform as a backend.
